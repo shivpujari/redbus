@@ -4,3 +4,89 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
+
+
+.countries-main{
+    background-color: #f1f1f1;
+    height: 550px;
+    border-top: 1px solid #aca7a7;
+    border-bottom: 1px solid #aca7a7;
+}
+
+.countries-section{
+    padding: 20px;
+    text-align: center;
+}
+
+.countries-heading{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.countries-list{
+   width: 800px;
+   margin: 50px auto 50px;
+   display: table;
+   box-sizing: border-box;
+   
+}
+
+
+.row{
+    margin: 10px 0;
+}
+
+
+.cc{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.images{
+    width: 200px;
+    height: 150px;
+}
+
+.growing{
+    text-align: center;
+    
+}
+
+.growing-heading{
+    font-family: monospace;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.growing-col{
+    float: left;
+    width: 27%;
+    padding: 30px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.grow{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.grow1{
+    font-size: 30px;
+    color: rgb(189, 61, 61);
+    font-weight: bold;
+}
+
+.grow2{
+    
+    width: 55%;
+    text-align: center;
+    margin-left: 80px;
+}
