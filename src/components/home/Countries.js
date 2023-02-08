@@ -44,25 +44,29 @@ const Countries = () => {
                 </div>
             </div>
         </div>
-        <section className='growing'>
-            <div className='growing-heading'>THE NUMBERS ARE GROWING!</div>
-            <div className='growing-col'>
-                <div className='grow'>customers</div>
-                <div className='grow1'>36 M</div>
-                <div className='grow2'>redBus is trusted by over 36 million happy customers globally</div>
-            </div>
-            <div className='growing-col'>
-                <div className='grow'>operators</div>
-                <div className='grow1'>3500</div>
-                <div className='grow2'>network of over 3500 bus operators worldwide</div>
-            </div>
-            <div className='growing-col'>
-                <div className='grow'>bus tickets</div>
-                <div className='grow1'>220+ M</div>
-                <div className='grow2'>Over 220 million trips booked using redBus</div>
-            </div>
-        </section>
-
+        <div className='grow-body'>
+            <section className='growing'>
+                <div className='growing-heading'>THE NUMBERS ARE GROWING!</div>
+            </section>
+                <div className='grow-body2'>
+                    <div className='growing-col'>
+                        <div className='grow'>customers</div>
+                        <div className='grow1'>36 M</div>
+                        <div className='grow2'>redBus is trusted by over 36 million happy customers globally</div>
+                    </div>
+                    <div className='growing-col'>
+                        <div className='grow'>operators</div>
+                        <div className='grow1'>3500</div>
+                        <div className='grow2'>network of over 3500 bus operators worldwide</div>
+                    </div>
+                    <div className='growing-col'>
+                        <div className='grow'>bus tickets</div>
+                        <div className='grow1'>220+ M</div>
+                        <div className='grow2'>Over 220 million trips booked using redBus</div>
+                    </div>
+                </div>
+            
+        </div>
     </div>
   )
 }
