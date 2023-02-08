@@ -187,7 +187,6 @@ div p {
     width: 90%;
     padding-left: 18px;
 }
-
 .top {
     padding: 5px 0 15px 0;
 }
@@ -201,4 +200,38 @@ div p {
     line-height: 25px;
     font-size: 16px;
     color: rgb(104, 95, 95);
+}
+.footer{
+    background: rgb(27,35,48);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+    justify-content: space-evenly;
+}
+
+div h3{
+    color:rgb(172, 166, 166);
+    font-size: 15px;
+    line-height: 30px;
+}
+.logo_footer{
+    width: 300px;
+   
+    
+}
+.online_booking:hover{
+    color: white;
+}
+.para_logo{
+   
+    line-height: 21px;
+}
+.online_booking{
+    text-decoration: none;
+    color: rgb(216, 207, 207);
+    font-size: 20px;
+}
+.copy_right{
+    padding-top: 20px;
 }
