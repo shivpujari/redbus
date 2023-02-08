@@ -119,14 +119,14 @@ body{
     width: 90%;
     padding: 10px 0px 20px;
     margin: 20px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(104, 95, 95);;
     display: flex;
     justify-content: space-between
 }
 
 .design_heading {
     font-size: 17px;
-    color: #444343;
+    color:rgb(104, 95, 95);
     padding-bottom: 10px;
     line-height: 20px;
 
@@ -134,7 +134,7 @@ body{
 
 div p {
     line-height: 28px;
-    color: rgb(82, 82, 82);
+    color: rgb(104, 95, 95);
 }
 
 .top_operation {
@@ -154,5 +154,5 @@ div p {
     word-spacing: 5px;
     line-height: 25px;
     font-size: 16px;
-    color: gray;
+    color: rgb(104, 95, 95);
 }
