@@ -47,7 +47,7 @@ const Fake_footer = () => {
             </div>
             <div className="top_operation">
                 <div>
-                    <h3 className="top">Top Operators</h3>
+                    <h4 className="top">Top Operators</h4>
                     <div className="operation_inside">
                         
                         SRS Travels |
@@ -101,7 +101,7 @@ const Fake_footer = () => {
                         Arthi Travels   |   
 
                     </div>
-                    <h3 className="last">All Operators </h3>
+                    <h4 className="last">All Operators </h4>
                 </div>
 
             </div>

@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Countries from "./Countries";
 import Fake_footer from "./Fake_footer";
+import Footer from "./Footer"
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
        <Header /> 
        <Countries />
        <Fake_footer/>
+       <Footer/>
     </>
   );
 }
