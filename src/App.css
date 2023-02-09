@@ -75,7 +75,7 @@ header{
 }
 
 .countries-list{
-   width: 700px;
+   width: 650px;
    margin: 50px auto 50px;
    display: table;
    box-sizing: border-box;
@@ -90,19 +90,20 @@ header{
 
 .cc{
     display: table-cell;
-    padding: 30px 90px;
+    padding: 30px 110px;
     text-align: center;
     
 }
 
 .countries-list-name{
+    line-height: 2rem;
     letter-spacing: 2px;
     color: cadetblue;
 }
 
 .images{
-    width: 150px;
-    height: 100px;
+    width: 130px;
+    height: 80px;
 }
 
 .grow-body{
@@ -124,7 +125,7 @@ header{
 .growing-heading{
     font-family: monospace;
     padding: 30px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .growing-col{
@@ -142,16 +143,17 @@ header{
 }
 
 .grow1{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(189, 61, 61);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .grow2{
     
-    width: 50%;
+    width: 60%;
     text-align: center;
-    margin-left: 95px;
+    margin-left: 90px;
+    padding: 15px;
 }
 
 
