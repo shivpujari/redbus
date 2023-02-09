@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css"
+
 function Footer() {
     return (
         <div className="footer">
@@ -54,6 +55,8 @@ function Footer() {
                 <h3 className="para_logo">redBus is the world's largest<a className="online_booking" href="#"> online bus ticket booking</a> service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</h3>
                 
                 <h3 className="copy_right"><span>Ⓒ</span> 2023 ibibogroup All rights reserved</h3>
+                
+                
             </div>
         </div>
     )
