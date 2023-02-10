@@ -1,99 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#firstDiv{
-    position: relative;
-}
-#mainDiv{
-    display: flex;
-    justify-content: space-evenly;
-    /* gap:100px ; */
-    margin-top: 50px;
-    margin-left: 30px;
-    background-size: 100%;
-    /* opacity: 0.4; */
-    background-repeat: no-repeat;
-    /* z-index: 1; */
-    
-}
-#div1{
-    width: 300px;
-    /* position: relative; */
-      
-}
-#headDiv{
-    font-size: 17px;
-    margin-left: 11px;
-    font-weight: bold;
-}
-#pDiv{
-    width: 220px;
-}
-#imgDiv{
-    width: 200px;
-    /* opacity: 2.4; */
-    /* justify-content: space-around; */
-}
-#mobImg{
-    height: 330px;
-    /* opacity: 1.5; */
-}
-#bkImg{
-    
-    position: absolute;
-    top: 70px;
-    z-index: -1;
-    opacity: 0.2;
-    height: 200px;
-    /* width: 100%; */
-    /* width: 100%; */
-}
-#sceneImg{
-    width: 100%;
-
-}
-p{
-    font-size: 9px;
-    /* line-height: 13px; */
-    margin: 10px;
-}
-#sms{
-    border: 1px solid;
-    background-color: brown;
-    margin: 5px 45px;
-    width: 100px;
-    padding: 2px 4px;
-    font-size: 10px;
-    color: wheat;
-}
-.fontawesomeParent{
-    display: flex;
-}
-.fontawesome{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 20px;
-    background-color:blue;
-    margin-left: 5px;
-}
-.apple{
-    color: bisque;
-}
-#input{
-    height: 16px;
-    font-size: 8px;
-}
-#select{
-    margin-left: 10px;
-    height: 16px;
-    font-size: 8px;
-}
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -247,5 +152,182 @@ header{
     
     width: 60%;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 90px;
+    padding: 15px;
+}
+
+
+.fake_div_footer {
+    border-top: 1px solid grey;
+    background: rgb(229, 229, 229);
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.top_bus_routes {
+    width: 90%;
+    padding: 10px 0px 20px;
+    margin: 20px;
+    border-bottom: 1px solid rgb(104, 95, 95);;
+    display: flex;
+    justify-content: space-between
+}
+
+.design_heading {
+    font-size: 17px;
+    color:rgb(104, 95, 95);
+    padding-bottom: 10px;
+    line-height: 20px;
+
+}
+
+div p {
+    line-height: 28px;
+    color: rgb(104, 95, 95);
+}
+
+.top_operation {
+    width: 90%;
+    padding-left: 18px;
+}
+.top {
+    padding: 5px 0 15px 0;
+}
+
+.last {
+    text-align: end;
+    padding: 5px 0 15px 0;
+}
+.operation_inside{
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgb(104, 95, 95);
+}
+.footer{
+    background: rgb(27,35,48);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 45px;
+    justify-content: space-evenly;
+}
+
+div h3{
+    color:rgb(172, 166, 166);
+    font-size: 15px;
+    line-height: 30px;
+}
+.logo_footer{
+    width: 300px;
+   
+    
+}
+.online_booking:hover{
+    color: white;
+}
+.para_logo{
+   
+    line-height: 21px;
+}
+.online_booking{
+    text-decoration: none;
+    color: rgb(216, 207, 207);
+    font-size: 20px;
+}
+.copy_right{
+    padding-top: 20px;
+}
+
+/*danish*/
+
+#firstDiv{
+    position: relative;
+}
+#mainDiv{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap:100px ; */
+    margin-top: 50px;
+    margin-left: 30px;
+    background-size: 100%;
+    /* opacity: 0.4; */
+    background-repeat: no-repeat;
+    /* z-index: 1; */
+    
+}
+#div1{
+    width: 300px;
+    /* position: relative; */
+      
+}
+#headDiv{
+    font-size: 17px;
+    margin-left: 11px;
+    font-weight: bold;
+}
+#pDiv{
+    width: 220px;
+}
+#imgDiv{
+    width: 200px;
+    /* opacity: 2.4; */
+    /* justify-content: space-around; */
+}
+#mobImg{
+    height: 330px;
+    /* opacity: 1.5; */
+}
+#bkImg{
+    
+    position: absolute;
+    top: 70px;
+    z-index: -1;
+    opacity: 0.2;
+    height: 200px;
+    /* width: 100%; */
+    /* width: 100%; */
+}
+#sceneImg{
+    width: 100%;
+
+}
+p{
+    font-size: 9px;
+    /* line-height: 13px; */
+    margin: 10px;
+}
+#sms{
+    border: 1px solid;
+    background-color: brown;
+    margin: 5px 45px;
+    width: 100px;
+    padding: 2px 4px;
+    font-size: 10px;
+    color: wheat;
+}
+.fontawesomeParent{
+    display: flex;
+}
+.fontawesome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-color:blue;
+    margin-left: 5px;
+}
+.apple{
+    color: bisque;
+}
+#input{
+    height: 16px;
+    font-size: 8px;
+}
+#select{
+    margin-left: 10px;
+    height: 16px;
+    font-size: 8px;
 }
